@@ -39,7 +39,7 @@
 
 ### **1. セットアップ**
 
-- **sentencepiece、datasets、transformers などの依存ライブラリをインストール**
+- **sentencepiece(使ってませんでした…そのうち消しておきます)、datasets、transformers などの依存ライブラリをインストール**
 - **Google Drive のマウント (必要に応じて)**
 - **作業ディレクトリの設定**
 
