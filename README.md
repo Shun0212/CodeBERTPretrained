@@ -1,8 +1,8 @@
-# **CodeBERT トレーニング概要**
+# **CodeBERTもどき　事前学習**
 
 ## **はじめに**
 
-**このリポジトリは CodeSearchNet の Python コードデータを使用して CodeBERT モデルをゼロから事前学習するためのサンプルです.**
+**このリポジトリは CodeSearchNet の Python コードデータを使用して CodeBERT モデルを mlmを用いてゼロから事前学習するためのサンプルです.**
 
 ### **セットアップと初期化**
 
