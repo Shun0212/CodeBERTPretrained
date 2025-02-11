@@ -118,23 +118,7 @@
 
 ---
 
-## 実験結果
 
-**CodeMorph-BERT** と **Microsoft CodeBERT** の性能比較を示します。
-
-| Metric            | CodeMorph-BERT | Microsoft CodeBERT |
-| ----------------- | -------------- | ------------------ |
-| **MRR**             | 0.8929         | 0.8064             |
-| **MAP**             | 0.8929         | 0.8064             |
-| **R-Precision**     | 0.8520         | 0.7560             |
-| **Recall@1**        | 0.8520         | 0.7560             |
-| **Recall@5**        | 0.9460         | 0.8590             |
-| **Recall@10**       | 0.9660         | 0.9050             |
-| **Precision@1**     | 0.8520         | 0.7560             |
-| **Precision@5**     | 0.8885         | 0.7956             |
-| **Precision@10**    | 0.8912         | 0.8015             |
-
-**結果概要:**  CodeMorph-BERT は Microsoft CodeBERT よりも高い性能を示しました。特に、MRR, MAP, Recall, Precision などの指標において、CodeMorph-BERT が Microsoft CodeBERT を上回っています。
 
 ---
 
