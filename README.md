@@ -3,6 +3,9 @@
 ## はじめに
 
 このリポジトリは、**Google Colab** 上で **CodeSearchNet** の Python コードデータセットを使用し、**Masked Language Modeling (MLM)** によって **CodeBERT** モデルをゼロから事前学習するサンプルコードを提供します。
+### Hugging Face Hub リポジトリ情報
+
+*   **Hugging Face Hub リンク:**  [CodeMorph-BERT](https://huggingface.co/Shuu12121/CodeMorph-BERT)
 
 ---
 
@@ -151,3 +154,16 @@ import torch
 model_name = "Shuu12121/CodeMorph-BERT"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForMaskedLM.from_pretrained(model_name)
+```
+
+**詳細:** `Shuu12121/CodeMorph-BERT` モデルは、**Masked Language Modeling** タスクのために事前学習されています。**AutoModelForMaskedLM** と **AutoTokenizer** を使用して、簡単にモデルをロードし、推論に利用できます。
+
+### リポジトリ フォルダ構成
+
+リポジトリの主なフォルダとファイル構成は以下の通りです。
+
+*   **`CodePreBERT.ipynb`**:  CodeBERT モデルを事前学習するための Notebook です。
+*   **`EvalCodeMor.ipynb`**:  CodeMorph-BERT と Microsoft CodeBERT の性能を比較評価するための Notebook です。
+*   **`LICENSE`**:  リポジトリのライセンス情報。
+*   **`README.md`**:  リポジトリの説明や利用方法などを記載した README ファイル。
+*   **`UseMyCodeBERT.ipynb`**:  Hugging Face Hub から CodeMorph-BERT を簡単に利用するための Notebook です。
